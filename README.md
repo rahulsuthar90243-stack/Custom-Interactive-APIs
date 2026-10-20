@@ -30,29 +30,37 @@ An interactive, responsive API Documentation Portal built with **React**, **Vite
 <img width="1080" height="824" alt="image" src="https://github.com/user-attachments/assets/2c7598dc-ee8f-4ea8-b194-7c3a500b1898" />
 <img width="997" height="649" alt="image" src="https://github.com/user-attachments/assets/d23bf9f5-c0dd-415f-9a7d-5ff2cf16b3cc" />
 
+![alt text](image-1.png)
 
 ## Getting Started
 
 ### 1. Start the Backend API Server
+
 In a terminal, start the Express backend:
+
 ```bash
 cd "C:\Users\abc\Documents\B_M_P\Backend"
 npm run dev
 ```
-*(The backend runs on `http://localhost:4000`)*
+
+_(The backend runs on `http://localhost:4000`)_
 
 ### 2. Start the API Documentation Portal
+
 In another terminal, start this documentation portal:
+
 ```bash
 cd "c:\Users\abc\Desktop\API Management"
 npm run dev
 ```
+
 Open **`http://localhost:5174`** in your browser.
 
 ### 3. (Optional) Run the BMP Management Frontend
+
 ```bash
 cd "C:\Users\abc\Documents\B_M_P\BM_Frontend\BMS"
 npm run dev
 ```
-Navigate to **`http://localhost:5173/admin/api-docs`** to see the integrated portal inside the BMP Admin dashboard.
 
+Navigate to **`http://localhost:5173/admin/api-docs`** to see the integrated portal inside the BMP Admin dashboard.
